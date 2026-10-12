@@ -1,0 +1,18 @@
+# Copyright (c) 2026 Chris Teli
+# SPDX-License-Identifier: MIT
+
+[project]
+name = "frontline"
+version = "0.1.0"
+description = "FrontLine: a self-improving strategy game agent (CMU Agentic AI capstone)"
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2.7"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

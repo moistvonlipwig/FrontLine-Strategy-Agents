@@ -7,7 +7,8 @@
 
 ## Setup
 - Coral's home is A1. Teal's home is E5.
-- Each home starts with strength 2. All other cells start empty.
+- The first mover's home starts at strength 3, the second mover's at 2. All other cells start empty.
+  (Offsets the second mover's last-turn edge, like komi in Go. Greedy vs greedy: 54% / 47% first/second.)
 - Players swap who moves first each game.
 
 ## Turns

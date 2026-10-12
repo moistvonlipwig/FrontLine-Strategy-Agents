@@ -6,14 +6,14 @@ Tick each item as you finish it. Dates match the plan tab, ending with the Modul
 
 ### Sun Oct 11
 
-- [ ] Module 2 live sessions and reading
-- [ ] Game engine with v1 rules and validator
-- [ ] Terminal board printer
-- [ ] Random and greedy bots
-- [ ] 1,000 bot games run with no errors
-- [ ] First-mover win rate near 50% with alternation
-- [ ] Engine exposes get\_state, legal\_moves, apply, and saves traces as JSON
-- [ ] Learning log entry
+- [x] Module 2 live sessions and reading
+- [x] Game engine with v1 rules and validator
+- [x] Terminal board printer
+- [x] Random and greedy bots
+- [x] 1,000 bot games run with no errors
+- [x] First-mover win rate near 50% with alternation (greedy 53.5% after home-strength-3 fix)
+- [x] Engine exposes get\_state, legal\_moves, apply, and saves traces as JSON
+- [x] Learning log entry
 
 ### Mon Oct 12 (day off)
 
