@@ -6,7 +6,12 @@ name = "frontline"
 version = "0.1.0"
 description = "FrontLine: a self-improving strategy game agent (CMU Agentic AI capstone)"
 requires-python = ">=3.12"
-dependencies = ["pydantic>=2.7"]
+dependencies = [
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.2.15",
+    "opentelemetry-sdk>=1.45.1",
+    "pydantic>=2.7",
+]
 
 [dependency-groups]
 dev = [

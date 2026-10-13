@@ -17,13 +17,13 @@ Tick each item as you finish it. Dates match the plan tab, ending with the Modul
 
 ### Mon Oct 12 (day off)
 
-- [ ] LangGraph match loop: observe, retrieve, decide, validate, apply, check end
-- [ ] Player Agent read-only tools
-- [ ] Pydantic action schema
-- [ ] OpenTelemetry spans saved as JSON
-- [ ] LLM agent plays a full legal game vs greedy
-- [ ] Illegal-move rate measured over 10 games
-- [ ] Learning log entry
+- [x] LangGraph match loop: observe, retrieve, decide, validate, apply, check end
+- [x] Player Agent read-only tools
+- [x] Pydantic action schema
+- [x] OpenTelemetry spans saved as JSON
+- [x] LLM agent plays a full legal game vs greedy
+- [x] Illegal-move rate measured over 10 games (baseline 15/120 = 12.5%)
+- [x] Learning log entry
 
 ### Tue Oct 13
 

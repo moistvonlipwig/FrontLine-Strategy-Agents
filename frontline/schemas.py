@@ -5,7 +5,7 @@
 
 from typing import Literal
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 Player = Literal["coral", "teal"]
 COLS = "ABCDE"
@@ -28,11 +28,15 @@ class GameState(BaseModel):
     homes: dict[str, str]  # {"coral": "A1", "teal": "E5"}
 
 
+CELL_PATTERN = r"^[A-E][1-5]$"
+
+
 class Action(BaseModel):
+    # Field descriptions + pattern go into the JSON schema the LLM is constrained to.
     kind: Literal["claim", "reinforce", "attack"]
-    target: str  # e.g. "C3"
-    source: str | None = None  # attacking cell, attack only
-    reason: str = ""
+    target: str = Field(pattern=CELL_PATTERN, description='One cell only, e.g. "C3". The cell claimed, reinforced, or attacked.')
+    source: str | None = Field(None, pattern=CELL_PATTERN, description='Attack only: your attacking cell, e.g. "C2". null otherwise.')
+    reason: str = Field("", description="One sentence: why this move.")
     cited_lessons: list[str] = []
 
     def key(self) -> str:

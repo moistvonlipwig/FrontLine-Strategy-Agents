@@ -156,3 +156,4 @@ __pycache__/
 
 # FrontLine run outputs
 runs/
+traces/
