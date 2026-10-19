@@ -10,6 +10,7 @@ None of them change the state: previews run on a copy via engine.step.
 from pydantic import ValidationError
 
 from . import engine
+from .bots import score
 from .schemas import Action, GameState
 
 
@@ -68,9 +69,29 @@ def threat_scan(state: GameState) -> list[dict]:
     return sorted(threats, key=lambda t: (not t["is_home"], -t["power"]))
 
 
+def score_2ply(state: GameState, action: Action) -> dict:
+    """Board score for the mover after `action` (1-ply) and after the enemy's best reply (2-ply).
+
+    Uses the greedy bot's score, so the enemy reply is what GreedyBot would play.
+    """
+    me = state.to_move
+    reason = engine.check_action(state, action)
+    if reason:
+        return {"move": action.key(), "legal": False, "reason": reason}
+    after, _ = engine.step(state, action)
+    one = score(after, me)
+    replies = [(score(engine.step(after, r)[0], me), r) for r in engine.legal_moves(after)]
+    if not replies:  # game over after our move
+        return {"move": action.key(), "legal": True, "score_1ply": one, "score_2ply": one, "best_reply": None}
+    two, reply = min(replies, key=lambda x: x[0])  # enemy picks what is worst for us
+    return {"move": action.key(), "legal": True, "score_1ply": one, "score_2ply": two,
+            "best_reply": reply.key()}
+
+
 TOOLS = {
     "list_legal_moves": list_legal_moves,
     "preview_attack": preview_attack,
     "supply_check": supply_check,
     "threat_scan": threat_scan,
+    "score_2ply": score_2ply,
 }

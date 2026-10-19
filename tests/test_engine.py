@@ -121,3 +121,11 @@ def test_trace_roundtrip(tmp_path):
     g.apply(Action(kind="claim", target="B1", reason="test"))
     data = json.loads(g.save_trace(tmp_path / "t1.json").read_text())
     assert data["turns"][0]["action"]["target"] == "B1"
+
+
+def test_score_2ply_sees_the_reply():
+    from frontline.tools import score_2ply
+    s = board(initial_state("coral"), B1=("coral", 1), C1=("teal", 4))
+    r = score_2ply(s, Action(kind="claim", target="A2"))
+    assert r["legal"] and r["score_2ply"] <= r["score_1ply"]
+    assert not score_2ply(s, Action(kind="claim", target="E1"))["legal"]

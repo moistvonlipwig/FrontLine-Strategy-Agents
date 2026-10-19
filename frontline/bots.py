@@ -24,7 +24,7 @@ class RandomBot:
     def __init__(self, seed: int | None = None):
         self.rng = random.Random(seed)
 
-    def act(self, state: GameState) -> Action:
+    def act(self, state: GameState, lessons=None) -> Action:  # bots ignore lessons
         a = self.rng.choice(legal_moves(state))
         a.reason = "random"
         return a
@@ -38,7 +38,7 @@ class GreedyBot:
     def __init__(self, seed: int | None = None):
         self.rng = random.Random(seed)
 
-    def act(self, state: GameState) -> Action:
+    def act(self, state: GameState, lessons=None) -> Action:  # bots ignore lessons
         p = state.to_move
         scored = [(score(step(state, a)[0], p), a) for a in legal_moves(state)]
         best = max(s for s, _ in scored)

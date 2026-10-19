@@ -27,11 +27,11 @@ Tick each item as you finish it. Dates match the plan tab, ending with the Modul
 
 ### Tue Oct 13
 
-- [ ] Tree-of-thought generates 3 candidate moves
-- [ ] Candidates scored and one picked
-- [ ] Vector-store lesson retrieval, top 3 by board similarity
-- [ ] One trace shows the candidates and retrieved lessons
-- [ ] Learning log entry
+- [x] Tree-of-thought generates 3 candidate moves
+- [x] Candidates scored and one picked (engine 2-ply, LLM picks)
+- [x] Vector-store lesson retrieval, top 3 by board similarity
+- [x] One trace shows the candidates and retrieved lessons (traces/lessons-check.json)
+- [x] Learning log entry
 
 ### Wed Oct 14
 

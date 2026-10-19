@@ -52,7 +52,9 @@ class TurnRecord(BaseModel):
     legal: bool
     illegal_reason: str | None = None
     state_after: GameState
-    candidates: list[Action] = []  # tree-of-thought options (Day 3)
+    candidates: list[Action] = []  # tree-of-thought options
+    candidate_scores: list[dict] = []  # tools.score_2ply result per candidate
+    retrieved_lessons: list[str] = []  # ids of lessons shown to the player this turn
 
 
 class Lesson(BaseModel):
@@ -64,3 +66,4 @@ class Lesson(BaseModel):
     confidence: float = 0.5
     status: Literal["candidate", "active", "retired"] = "candidate"
     source_game: str
+    vector: list[float] = []  # embedding of the board it was learned on (lessons.embed)

@@ -227,7 +227,9 @@ class Game:
     def outcome(self) -> tuple[Player | None, str]:
         return outcome(self.state)
 
-    def apply(self, action: Action, candidates: list[Action] | None = None) -> TurnRecord:
+    def apply(self, action: Action, candidates: list[Action] | None = None,
+              candidate_scores: list[dict] | None = None,
+              retrieved_lessons: list[str] | None = None) -> TurnRecord:
         if self.is_over():
             raise RuntimeError("game is over")
         before = self.state
@@ -241,6 +243,8 @@ class Game:
             illegal_reason=reason,
             state_after=after,
             candidates=candidates or [],
+            candidate_scores=candidate_scores or [],
+            retrieved_lessons=retrieved_lessons or [],
         )
         self.history.append(rec)
         self.state = after

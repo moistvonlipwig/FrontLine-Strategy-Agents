@@ -23,16 +23,20 @@ from opentelemetry.trace import Span
 
 from . import engine
 from .engine import Game
-from .schemas import Action, GameState
+from .lessons import LessonStore
+from .schemas import Action, GameState, Lesson
 from .tracing import save_spans, tracer
 
 
 class MatchState(TypedDict):
     game: Game  # holds the real board and the trace
-    players: dict[str, Any]  # {"coral": agent, "teal": agent}; anything with .act(state)
+    players: dict[str, Any]  # {"coral": agent, "teal": agent}; anything with .act(state, lessons)
+    store: LessonStore | None  # None = no lessons (condition A)
     observation: GameState | None
-    lessons: list[str]
+    lessons: list[Lesson]
     action: Action | None
+    candidates: list[Action]  # tree-of-thought options from decide (empty for bots)
+    candidate_scores: list[dict]
     illegal_reason: str | None
     game_span: Span  # root span, parent of every turn
     turn_span: Span | None  # parent of this turn's node spans
@@ -57,20 +61,28 @@ def observe(s: MatchState) -> dict:
 
 @traced
 def retrieve(s: MatchState, span: Span) -> dict:
-    span.set_attribute("lessons.count", 0)
-    return {"lessons": []}  # Day 3: vector-store lesson search goes here
+    hits = s["store"].search(s["observation"], k=3) if s["store"] else []
+    span.set_attributes({"lessons.count": len(hits), "lessons.ids": [l.id for l, _ in hits],
+                         "lessons.similarity": [round(sim, 3) for _, sim in hits]})
+    return {"lessons": [l for l, _ in hits]}
 
 
 @traced
 def decide(s: MatchState, span: Span) -> dict:
     obs = s["observation"]
     player = s["players"][obs.to_move]
-    action = player.act(obs)
-    span.set_attributes({"agent": type(player).__name__, "action": action.key(), "reason": action.reason})
+    action = player.act(obs, s["lessons"])
+    span.set_attributes({"agent": type(player).__name__, "action": action.key(), "reason": action.reason,
+                         "cited_lessons": action.cited_lessons})
     for call in getattr(player, "last_tool_calls", []):  # bots have none
         span.add_event("tool_call", {"name": call["name"], "args": json.dumps(call["args"]),
                                      "result": json.dumps(call["result"])})
-    return {"action": action}
+    cands = getattr(player, "last_candidates", [])
+    scores = getattr(player, "last_scores", [])
+    for c, sc in zip(cands, scores):
+        span.add_event("candidate", {"move": c.key(), "reason": c.reason, "picked": c.key() == action.key(),
+                                     "score": json.dumps(sc)})
+    return {"action": action, "candidates": cands, "candidate_scores": scores}
 
 
 @traced
@@ -84,7 +96,8 @@ def validate(s: MatchState, span: Span) -> dict:
 
 @traced
 def apply(s: MatchState, span: Span) -> dict:
-    s["game"].apply(s["action"])  # mutates the Game in place; nothing to merge
+    s["game"].apply(s["action"], s["candidates"], s["candidate_scores"],  # mutates the Game in place
+                    [l.id for l in s["lessons"]])
     s["turn_span"].set_attributes({"action": s["action"].key(), "legal": s["illegal_reason"] is None})
     return {}
 
@@ -112,7 +125,7 @@ GRAPH = build_graph()
 
 
 def play_match(game: Game, players: dict[str, Any], spans_path: str | Path | None = None,
-               on_turn=None) -> Game:
+               on_turn=None, store: LessonStore | None = None) -> Game:
     """Run one full game. 24 turns x 5 nodes = 120 steps, so raise LangGraph's default limit of 25.
 
     on_turn(game) is called after each apply, e.g. to print the board.
@@ -122,8 +135,8 @@ def play_match(game: Game, players: dict[str, Any], spans_path: str | Path | Non
                                   **{f"player.{c}": type(p).__name__ for c, p in players.items()}})
         # stream() is invoke() that yields after every node: {"node_name": update_dict}
         for step in GRAPH.stream(
-            {"game": game, "players": players, "observation": None, "lessons": [], "action": None,
-             "illegal_reason": None, "game_span": game_span, "turn_span": None},
+            {"game": game, "players": players, "store": store, "observation": None, "lessons": [], "action": None,
+             "candidates": [], "candidate_scores": [], "illegal_reason": None, "game_span": game_span, "turn_span": None},
             config={"recursion_limit": 200},
             stream_mode="updates",
         ):
