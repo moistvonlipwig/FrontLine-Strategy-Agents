@@ -35,10 +35,10 @@ Tick each item as you finish it. Dates match the plan tab, ending with the Modul
 
 ### Wed Oct 14
 
-- [ ] CrewAI review crew: analyst, critic, curator
-- [ ] Crew reads the trace but not the player's reasoning
-- [ ] Lesson store with confidence score, cap of 30, and retire rule
-- [ ] A lesson from game N shows up in retrieval in game N+1
+- [x] CrewAI review crew: analyst, critic, curator
+- [x] Crew reads the trace but not the player's reasoning
+- [x] Lesson store with confidence score, cap of 30, and retire rule
+- [x] A lesson from game N shows up in retrieval in game N+1 (n1-check: L1 written after g00, cited in g01)
 - [ ] Learning log entry
 
 ### Thu Oct 15

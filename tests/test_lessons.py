@@ -4,8 +4,8 @@
 """Lesson retrieval by board similarity. Lessons here are test-only, never used in runs."""
 
 from frontline.engine import initial_state
-from frontline.lessons import LessonStore, cosine, embed
-from frontline.schemas import Lesson
+from frontline.lessons import CAP, LessonStore, cosine, embed
+from frontline.schemas import Action, Lesson, TurnRecord
 from test_engine import board
 
 
@@ -53,3 +53,55 @@ def test_top3_by_board_similarity(tmp_path):
 
 def test_empty_store_returns_nothing(tmp_path):
     assert LessonStore(tmp_path / "missing.json").search(opening()) == []
+
+
+def cites(player, *ids):
+    """One TurnRecord where `player` cited `ids`."""
+    s = opening()
+    act = Action(kind="claim", target="B1", reason="", cited_lessons=list(ids))
+    return TurnRecord(turn=1, player=player, state_before=s, action=act, legal=True, state_after=s)
+
+
+def test_cited_lessons_get_the_result(tmp_path):
+    store = LessonStore()
+    for i in ("L1", "L2", "L3"):
+        store.add(lesson(i), opening())
+    recs = [cites("coral", "L1"), cites("teal", "L2")]  # L2 cited by the other side
+    assert store.record_game(recs, player="coral", winner="coral") == ["L1"]
+    l1, l2, _ = store.lessons
+    assert (l1.wins, l1.losses, l1.confidence) == (1, 0, 2 / 3)
+    assert (l2.wins, l2.losses) == (0, 0)
+
+
+def test_draw_counts_for_nothing():
+    store = LessonStore()
+    store.add(lesson("L1"), opening())
+    assert store.record_game([cites("coral", "L1")], "coral", None) == []
+
+
+def test_candidate_promoted_after_3_good_games():
+    store = LessonStore()
+    store.add(lesson("L1", status="candidate"), opening())
+    for won in ("coral", "teal", "coral"):  # 2W-1L, confidence 0.6
+        store.record_game([cites("coral", "L1")], "coral", won)
+    assert store.lessons[0].status == "active"
+
+
+def test_losing_lesson_retired_after_5_games():
+    store = LessonStore()
+    store.add(lesson("L1"), opening())
+    for _ in range(5):  # 0W-5L, confidence 1/7
+        store.record_game([cites("coral", "L1")], "coral", "teal")
+    assert store.lessons[0].status == "retired"
+    assert store.search(opening()) == []
+
+
+def test_cap_retires_the_weakest():
+    store = LessonStore()
+    for i in range(CAP):
+        store.add(lesson(f"L{i}"), opening())
+    store.lessons[7].confidence = 0.1
+    store.add(lesson("new", status="candidate"), opening())
+    assert len(store.live()) == CAP
+    assert store.lessons[7].status == "retired"
+    assert store.lessons[-1].status == "candidate"

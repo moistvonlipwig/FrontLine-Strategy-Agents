@@ -17,7 +17,19 @@ import json
 import math
 from pathlib import Path
 
-from .schemas import CELLS, MAX_STRENGTH, TOTAL_TURNS, GameState, Lesson
+from .schemas import CELLS, MAX_STRENGTH, TOTAL_TURNS, GameState, Lesson, Player, TurnRecord
+
+CAP = 30  # most live (non-retired) lessons the store keeps
+PROMOTE_GAMES = 3  # candidate -> active after this many cited games...
+PROMOTE_CONF = 0.5  # ...if confidence is at least this
+RETIRE_GAMES = 5  # retire after this many cited games...
+RETIRE_CONF = 0.4  # ...if confidence is below this
+
+
+def confidence(wins: int, losses: int) -> float:
+    """Win rate with 1 fake win and 1 fake loss added, so a new lesson starts at 0.5
+    and one lucky game can't push it to 1.0."""
+    return (wins + 1) / (wins + losses + 2)
 
 
 def embed(state: GameState) -> list[float]:
@@ -50,7 +62,42 @@ class LessonStore:
         if state is not None:
             lesson.vector = embed(state)
         self.lessons.append(lesson)
+        self._enforce_cap(keep=lesson.id)
         return lesson
+
+    def live(self) -> list[Lesson]:
+        return [l for l in self.lessons if l.status != "retired"]
+
+    def _enforce_cap(self, keep: str) -> None:
+        """Over the cap: retire the lowest-confidence live lesson (never the one just added)."""
+        while len(self.live()) > CAP:
+            worst = min((l for l in self.live() if l.id != keep),
+                        key=lambda l: (l.confidence, -(l.wins + l.losses)))  # tie: most-tested goes
+            worst.status = "retired"
+
+    def record_game(self, records: list[TurnRecord], player: Player, winner: Player | None) -> list[str]:
+        """Update the tally for every lesson `player` cited this game. Credit goes to cited
+        lessons only (not just retrieved), so advice the agent ignored isn't scored.
+        A draw counts for nothing. Returns the ids that were updated."""
+        if winner is None:
+            return []
+        cited = {i for r in records if r.player == player for i in r.action.cited_lessons}
+        updated = []
+        for l in self.lessons:
+            if l.id not in cited or l.status == "retired":
+                continue
+            if winner == player:
+                l.wins += 1
+            else:
+                l.losses += 1
+            l.confidence = confidence(l.wins, l.losses)
+            games = l.wins + l.losses
+            if games >= RETIRE_GAMES and l.confidence < RETIRE_CONF:
+                l.status = "retired"
+            elif l.status == "candidate" and games >= PROMOTE_GAMES and l.confidence >= PROMOTE_CONF:
+                l.status = "active"
+            updated.append(l.id)
+        return updated
 
     def search(self, state: GameState, k: int = 3) -> list[tuple[Lesson, float]]:
         """Top k non-retired lessons by board similarity, best first."""

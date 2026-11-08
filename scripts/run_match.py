@@ -9,6 +9,7 @@
     uv run python scripts/run_match.py --games 10 --quiet     # illegal-move rate over 10 games
     uv run python scripts/run_match.py --no-tot               # single candidate (condition D)
     uv run python scripts/run_match.py --lessons tests/fixtures/lessons.json   # retrieval check
+    uv run python scripts/run_match.py --games 2 --lessons lessons/lessons.json --review   # learn between games
 
 Saves traces/<game_id>.json (turn records) and traces/<game_id>.spans.json (OpenTelemetry).
 """
@@ -53,14 +54,18 @@ def main():
     ap.add_argument("--first", default="coral", choices=["coral", "teal"])
     ap.add_argument("--model", default="qwen3:32b")
     ap.add_argument("--games", type=int, default=1, help="first mover alternates each game")
+    ap.add_argument("--seed", type=int, default=1, help="bot seed; change it when resuming so games are not replays")
     ap.add_argument("--no-tot", action="store_true", help="single candidate, no tree-of-thought")
     ap.add_argument("--lessons", help="lesson store JSON; omit for no lessons (condition A)")
+    ap.add_argument("--review", action="store_true", help="run the review crew after each game (needs --lessons)")
     ap.add_argument("--quiet", action="store_true", help="one line per game, no boards")
     ap.add_argument("--game-id", default=f"match-{time.strftime('%Y%m%d-%H%M%S')}")
     args = ap.parse_args()
+    if args.review and not args.lessons:
+        ap.error("--review needs --lessons")
 
-    players = {"coral": make(args.coral, args.model, 1, not args.no_tot),
-               "teal": make(args.teal, args.model, 2, not args.no_tot)}
+    players = {"coral": make(args.coral, args.model, args.seed, not args.no_tot),
+               "teal": make(args.teal, args.model, args.seed + 1, not args.no_tot)}
     store = LessonStore(args.lessons) if args.lessons else None
     llm_seats = {c for c, p in players.items() if isinstance(p, PlayerAgent)}
     other_first = "teal" if args.first == "coral" else "coral"
@@ -87,6 +92,14 @@ def main():
         llm_moves, llm_illegal = llm_moves + len(mine), llm_illegal + bad
         print(f"{game_id}  first={first:5s}  winner={winner or 'draw':5s} ({how})  "
               f"LLM illegal {bad}/{len(mine)}  {time.time() - start:.0f}s", flush=True)
+
+        if args.review:
+            from frontline.crew import review_game  # crewai is slow to import; only load when used
+            for seat in sorted(llm_seats):
+                s = review_game(game.trace(), store, seat)
+                store.save()
+                print(f"  review {seat}: scored {s['scored']}  {s['decision']['action']} -> {s['lesson']}"
+                      + (f"  {s['decision']['text']}" if s["lesson"] else ""), flush=True)
 
     print(f"\nwins: {wins}")
     if llm_moves:

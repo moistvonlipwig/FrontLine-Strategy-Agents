@@ -102,7 +102,7 @@ class PlayerAgent:
 
     def __init__(self, model: str = "qwen3:32b", max_tool_rounds: int = 4, tot: bool = True):
         # reasoning=False turns off qwen3's <think> output: faster, cleaner JSON.
-        self.llm = ChatOllama(model=model, temperature=0, reasoning=False)
+        self.llm = ChatOllama(model=model, temperature=0, reasoning=False, num_predict=2000)  # stop runaway generation
         self.max_tool_rounds = max_tool_rounds
         self.tot = tot
         self.last_tool_calls: list[dict] = []  # for tracing (Stage 4)
