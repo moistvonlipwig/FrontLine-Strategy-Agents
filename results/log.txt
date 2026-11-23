@@ -1,0 +1,52 @@
+11-23 04:54:24  s1-A-g000  first=coral  winner=teal  (cells 10-13)  illegal 0/12  best 11/12  cited 0  lessons 0  594s
+11-23 05:00:08  s1-A-g001  first=teal   winner=teal  (cells 6-11)  illegal 0/12  best 5/12  cited 0  lessons 0  343s
+11-23 05:08:33  s1-A-g002  first=coral  winner=teal  (cells 10-13)  illegal 0/12  best 9/12  cited 0  lessons 0  505s
+11-23 05:16:12  s1-A-g003  first=teal   winner=teal  (cells 5-13)  illegal 1/12  best 7/12  cited 0  lessons 0  460s
+11-23 05:25:05  s1-A-g004  first=coral  winner=coral (strength 14-13)  illegal 0/12  best 12/12  cited 0  lessons 0  533s
+11-23 05:35:26  s1-A-g005  first=teal   winner=teal  (cells 9-13)  illegal 2/12  best 10/12  cited 0  lessons 0  620s
+11-23 05:45:49  s1-A-g006  first=coral  winner=teal  (cells 10-12)  illegal 0/12  best 11/12  cited 0  lessons 0  623s
+11-23 05:53:21  s1-A-g007  first=teal   winner=teal  (cells 5-12)  illegal 1/12  best 5/12  cited 0  lessons 0  452s
+11-23 06:03:21  s1-A-g008  first=coral  winner=teal  (cells 11-12)  illegal 0/12  best 11/12  cited 0  lessons 0  600s
+11-23 06:11:20  s1-A-g009  first=teal   winner=teal  (cells 6-13)  illegal 0/12  best 6/12  cited 0  lessons 0  479s
+11-23 06:24:36  s1-B-g000  first=coral  winner=coral (cells 12-11)  illegal 0/12  best 12/12  cited 0  lessons 1 +L1  796s
+11-23 06:36:35  s1-B-g001  first=teal   winner=teal  (cells 6-12)  illegal 1/12  best 8/12  cited 9  lessons 2 +L2  719s
+11-23 06:48:12  s1-B-g002  first=coral  winner=coral (cells 13-12)  illegal 0/12  best 12/12  cited 5  lessons 3 +L3  697s
+11-23 06:59:21  s1-B-g003  first=teal   winner=teal  (cells 10-13)  illegal 0/12  best 10/12  cited 12  lessons 3 +L2  669s
+11-23 07:09:56  s1-B-g004  first=coral  winner=teal  (cells 8-13)  illegal 1/12  best 10/12  cited 12  lessons 4 +L4  635s
+11-23 07:22:19  s1-B-g005  first=teal   winner=teal  (cells 6-13)  illegal 0/12  best 6/12  cited 8  lessons 3  743s
+11-23 07:32:58  s1-B-g006  first=coral  winner=teal  (cells 12-13)  illegal 0/12  best 12/12  cited 12  lessons 4 +L5  638s
+11-23 07:46:36  s1-B-g007  first=teal   winner=teal  (cells 5-13)  illegal 0/12  best 6/12  cited 11  lessons 3  818s
+11-23 07:58:47  s1-B-g008  first=coral  winner=teal  (cells 10-11)  illegal 0/12  best 11/12  cited 12  lessons 3 +L6  731s
+11-23 08:09:49  s1-B-g009  first=teal   winner=teal  (cells 9-11)  illegal 0/12  best 11/12  cited 11  lessons 4 +L7  661s
+11-23 08:23:51  s1-B-g010  first=coral  winner=teal  (cells 12-13)  illegal 0/12  best 12/12  cited 10  lessons 5 +L8  842s
+11-23 08:35:14  s1-B-g011  first=teal   winner=teal  (cells 7-13)  illegal 0/12  best 8/12  cited 9  lessons 4  684s
+11-23 08:48:01  s1-B-g012  first=coral  winner=coral (cells 13-12)  illegal 0/12  best 12/12  cited 8  lessons 4  766s
+11-23 08:59:41  s1-B-g013  first=teal   winner=teal  (cells 6-13)  illegal 0/12  best 7/12  cited 12  lessons 4 +L7  700s
+11-23 09:11:37  s1-B-g014  first=coral  winner=teal  (cells 12-13)  illegal 0/12  best 11/12  cited 10  lessons 3  716s
+11-23 09:25:56  s1-B-g015  first=teal   winner=teal  (cells 11-12)  illegal 1/12  best 10/12  cited 10  lessons 2 +L7  858s
+11-23 09:35:26  s1-B-g016  first=coral  winner=coral (cells 10-8)  illegal 0/12  best 12/12  cited 9  lessons 2 +L9  570s
+11-23 09:47:47  s1-B-g017  first=teal   winner=teal  (cells 7-12)  illegal 0/12  best 8/12  cited 9  lessons 2  741s
+11-23 09:57:14  s1-B-g018  first=coral  winner=coral (strength 14-13)  illegal 0/12  best 11/12  cited 8  lessons 3 +L10  567s
+11-23 10:12:08  s1-B-g019  first=teal   winner=teal  (cells 5-12)  illegal 0/12  best 7/12  cited 10  lessons 2  894s
+11-23 10:12:08  B done, froze runs/seed1/lessons.json -> runs/seed1/lessons-frozen.json
+11-23 10:19:37  s1-C-g000  first=coral  winner=teal  (cells 10-13)  illegal 0/12  best 9/12  cited 6  lessons 2  448s
+11-23 10:27:02  s1-C-g001  first=teal   winner=teal  (cells 6-11)  illegal 0/12  best 6/12  cited 5  lessons 2  446s
+11-23 10:34:31  s1-C-g002  first=coral  winner=teal  (cells 10-13)  illegal 0/12  best 9/12  cited 10  lessons 2  449s
+11-23 10:41:09  s1-C-g003  first=teal   winner=teal  (cells 8-10)  illegal 0/12  best 11/12  cited 6  lessons 2  398s
+11-23 10:51:24  s1-C-g004  first=coral  winner=teal  (cells 11-13)  illegal 1/12  best 10/11  cited 8  lessons 2  616s
+11-23 11:01:41  s1-C-g005  first=teal   winner=teal  (cells 7-13)  illegal 1/12  best 9/11  cited 8  lessons 2  616s
+11-23 11:08:38  s1-C-g006  first=coral  winner=teal  (cells 11-13)  illegal 1/12  best 10/12  cited 10  lessons 2  417s
+11-23 11:16:49  s1-C-g007  first=teal   winner=teal  (cells 6-12)  illegal 0/12  best 8/12  cited 6  lessons 2  491s
+11-23 11:24:14  s1-C-g008  first=coral  winner=teal  (cells 12-13)  illegal 0/12  best 11/12  cited 10  lessons 2  445s
+11-23 11:32:11  s1-C-g009  first=teal   winner=teal  (cells 8-9)  illegal 0/12  best 11/12  cited 9  lessons 2  478s
+11-23 11:35:47  s1-D-g000  first=coral  winner=teal  (cells 10-13)  illegal 3/12  best 0/0  cited 11  lessons 2  215s
+11-23 11:39:32  s1-D-g001  first=teal   winner=teal  (cells 8-11)  illegal 3/12  best 0/0  cited 11  lessons 2  225s
+11-23 11:43:51  s1-D-g002  first=coral  winner=teal  (cells 10-12)  illegal 1/12  best 0/0  cited 10  lessons 2  259s
+11-23 11:47:51  s1-D-g003  first=teal   winner=teal  (cells 5-13)  illegal 3/12  best 0/0  cited 10  lessons 2  240s
+11-23 11:52:48  s1-D-g004  first=coral  winner=teal  (cells 2-12)  illegal 1/12  best 0/0  cited 10  lessons 2  297s
+11-23 11:56:27  s1-D-g005  first=teal   winner=teal  (cells 6-11)  illegal 3/12  best 0/0  cited 10  lessons 2  219s
+11-23 12:03:08  s1-D-g006  first=coral  winner=teal  (cells 8-13)  illegal 3/12  best 0/0  cited 10  lessons 2  401s
+11-23 12:07:11  s1-D-g007  first=teal   winner=teal  (cells 8-13)  illegal 2/12  best 0/0  cited 10  lessons 2  243s
+11-23 12:10:54  s1-D-g008  first=coral  winner=teal  (cells 8-13)  illegal 4/12  best 0/0  cited 11  lessons 2  223s
+11-23 12:15:09  s1-D-g009  first=teal   winner=teal  (cells 11-13)  illegal 1/12  best 0/0  cited 11  lessons 2  255s
+11-23 12:15:09  finished, summary in runs/seed1/summary.md

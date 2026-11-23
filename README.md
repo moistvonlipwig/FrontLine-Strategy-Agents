@@ -109,6 +109,7 @@ uv run python scripts/run_experiment.py --seed 1 --a 10 --b 20 --c 10 --d 10   #
 uv run python scripts/run_experiment.py --seed 2 ...                           # second seed, to separate real gaps from noise
 uv run python scripts/run_experiment.py --seed 1 --player greedy --a 4 --b 4 --c 4 --d 4   # smoke test, no LLM
 uv run python scripts/run_experiment.py --seed 1 --summary                     # rebuild the summary table
+uv run --with matplotlib python scripts/make_charts.py runs/seed1 results/     # charts from a run
 ```
 
 An LLM game takes about 8 to 15 minutes on qwen3:32b, so run long passes under `tmux` or `nohup`. The runner is built to be left alone:
@@ -128,25 +129,32 @@ Output in `runs/seed<N>/`:
 | `lessons.json`, `B/lessons-gNNN.json` | The training store, plus a snapshot after each B game |
 | `lessons-frozen.json` | The store C and D use |
 
-## Results so far
+## Results
 
-Pilot runs (Oct 2026, qwen3:32b vs greedy, small samples; see [docs/submission-3.md](docs/submission-3.md) and [docs/submission-4.md](docs/submission-4.md)):
+Main experiment, seed 1 (Nov 23, 2026; qwen3:32b vs greedy; 50 games, 7.5 hours). Full data, charts, and sample traces: [results/](results/).
 
-| Measure | Result |
-|---|---|
-| Illegal-move rate, no tree-of-thought | 15/120 = 12.5% |
-| Illegal-move rate, with tree-of-thought | 1% to 3% |
-| Wins vs greedy, lessons off / on (10 games each) | 1/10 / 1/10 |
-| LLM picked the engine's top-scored candidate | 179/239 turns (75%) |
-| Illegal ToT candidates (filtered before scoring) | 91/717 (13%) |
+| Condition | Win rate | Illegal moves | Picked top-scored move | Avg. cells |
+|---|---|---|---|---|
+| A, no lessons | 1/10 (10%) | 3% | 72% | 8.4 |
+| B, training | 5/20 (25%) | 1% | 82% | 9.3 |
+| C, frozen lessons | 0/10 (0%) | 2% | 80% | 8.9 |
+| D, no tree-of-thought | 0/10 (0%) | **20%** | – | 7.6 |
 
-Full A to D results will appear in `runs/` and in this section once the experiment finishes.
+![Win rate and illegal-move rate by condition](results/conditions.png)
+
+- **Tree-of-thought keeps moves legal:** without it, illegal moves rise from 2% to 20%.
+- **Frozen lessons did not raise the win rate.** The crew wrote 10 lessons in training and the outcome tally retired 8, so C ran with 2 unproven lessons.
+- **Seat dominates:** the agent won 6 of 25 games as first mover and 0 of 25 as second.
+- 10 to 20 games per condition shows trends, not significant differences.
+
+Earlier pilot numbers (single LLM call: 12.5% illegal moves) are in [docs/submission-3.md](docs/submission-3.md) and [docs/submission-4.md](docs/submission-4.md). The final report is [docs/final-report.md](docs/final-report.md).
 
 ## Repository layout
 
 ```
 frontline/      the package (engine, agents, lessons, crew, tracing)
-scripts/        run_bots, run_match, run_review, run_experiment
+scripts/        run_bots, run_match, run_review, run_experiment, make_charts
+results/        experiment results, charts, sample traces
 tests/          rule tests; fixtures/lessons.json is for tests only, never experiments
 lessons/        lesson store from the pilot training runs
 docs/           rules, architecture, plan, checkpoint submissions, learning log

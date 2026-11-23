@@ -1,0 +1,4091 @@
+[
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x120c33345f23b972",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x50cdb4d71f8e7d4b",
+  "start_time": "2026-11-23T20:07:11.640327Z",
+  "end_time": "2026-11-23T20:07:11.640366Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L9",
+    "L10"
+   ],
+   "lessons.similarity": [
+    0.702,
+    0.623
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x42061d1abb37158a",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x50cdb4d71f8e7d4b",
+  "start_time": "2026-11-23T20:07:11.640518Z",
+  "end_time": "2026-11-23T20:07:35.063901Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "claim A2",
+   "reason": "Expanding downward from home to establish a southern front.",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x946415c37136d972",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x50cdb4d71f8e7d4b",
+  "start_time": "2026-11-23T20:07:35.064465Z",
+  "end_time": "2026-11-23T20:07:35.064487Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x2a5e2ff2889ab226",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x50cdb4d71f8e7d4b",
+  "start_time": "2026-11-23T20:07:35.064798Z",
+  "end_time": "2026-11-23T20:07:35.064918Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x50cdb4d71f8e7d4b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:07:11.640147Z",
+  "end_time": "2026-11-23T20:07:35.065016Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 1,
+   "player": "coral",
+   "action": "claim A2",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x6b2914416226f884",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc9c7fba99b1c88b8",
+  "start_time": "2026-11-23T20:07:35.065586Z",
+  "end_time": "2026-11-23T20:07:35.065643Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L9",
+    "L10"
+   ],
+   "lessons.similarity": [
+    0.697,
+    0.627
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x6911f7c157a4b465",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc9c7fba99b1c88b8",
+  "start_time": "2026-11-23T20:07:35.065832Z",
+  "end_time": "2026-11-23T20:07:35.066039Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim D5",
+   "reason": "greedy score -1",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xfc6d734a8380d56a",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc9c7fba99b1c88b8",
+  "start_time": "2026-11-23T20:07:35.066233Z",
+  "end_time": "2026-11-23T20:07:35.066245Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x7929485abeb0b6ac",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc9c7fba99b1c88b8",
+  "start_time": "2026-11-23T20:07:35.066412Z",
+  "end_time": "2026-11-23T20:07:35.066486Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xc9c7fba99b1c88b8",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:07:35.065328Z",
+  "end_time": "2026-11-23T20:07:35.066547Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 2,
+   "player": "teal",
+   "action": "claim D5",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xcea17031c93fce09",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x62fa762857ee19a4",
+  "start_time": "2026-11-23T20:07:35.066950Z",
+  "end_time": "2026-11-23T20:07:35.066990Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L9",
+    "L10"
+   ],
+   "lessons.similarity": [
+    0.74,
+    0.713
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xab9d553e307c7358",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x62fa762857ee19a4",
+  "start_time": "2026-11-23T20:07:35.067153Z",
+  "end_time": "2026-11-23T20:08:11.865299Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "claim A3",
+   "reason": "Expanding directly down from my home cell to create a vertical connection for future expansion and defense.",
+   "cited_lessons": [
+    "L9"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:08:11.865280Z",
+    "attributes": {
+     "name": "supply_check",
+     "args": "{}",
+     "result": "{\"supplied\": [\"A1\", \"A2\"], \"cut_off\": []}"
+    }
+   },
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:08:11.865291Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x0e687e2500d8ac17",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x62fa762857ee19a4",
+  "start_time": "2026-11-23T20:08:11.865706Z",
+  "end_time": "2026-11-23T20:08:11.865723Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x7823098cfd15154c",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x62fa762857ee19a4",
+  "start_time": "2026-11-23T20:08:11.865960Z",
+  "end_time": "2026-11-23T20:08:11.866087Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x62fa762857ee19a4",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:07:35.066763Z",
+  "end_time": "2026-11-23T20:08:11.866188Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 3,
+   "player": "coral",
+   "action": "claim A3",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x522c3420d61d92b0",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x547d4b2e2190e7e9",
+  "start_time": "2026-11-23T20:08:11.866745Z",
+  "end_time": "2026-11-23T20:08:11.866803Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L9",
+    "L10"
+   ],
+   "lessons.similarity": [
+    0.733,
+    0.711
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x8013113d9f8555ff",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x547d4b2e2190e7e9",
+  "start_time": "2026-11-23T20:08:11.867046Z",
+  "end_time": "2026-11-23T20:08:11.867382Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim E4",
+   "reason": "greedy score -1",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xd4371ada8d2b5554",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x547d4b2e2190e7e9",
+  "start_time": "2026-11-23T20:08:11.867627Z",
+  "end_time": "2026-11-23T20:08:11.867639Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xf1c9d5d272a4bc9a",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x547d4b2e2190e7e9",
+  "start_time": "2026-11-23T20:08:11.867842Z",
+  "end_time": "2026-11-23T20:08:11.867928Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x547d4b2e2190e7e9",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:11.866489Z",
+  "end_time": "2026-11-23T20:08:11.868003Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 4,
+   "player": "teal",
+   "action": "claim E4",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x7c012f4cc4864cdb",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaa7ff4183acb71c6",
+  "start_time": "2026-11-23T20:08:11.868458Z",
+  "end_time": "2026-11-23T20:08:11.868501Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L9",
+    "L10"
+   ],
+   "lessons.similarity": [
+    0.813,
+    0.786
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xc98a78257e0565fa",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaa7ff4183acb71c6",
+  "start_time": "2026-11-23T20:08:11.868700Z",
+  "end_time": "2026-11-23T20:08:24.237145Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "claim B1",
+   "reason": "Expanding directly adjacent to my home (A1) to strengthen my central position and create a buffer against enemy expansion.",
+   "cited_lessons": [
+    "L10"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:08:24.237129Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x3a91945126adf895",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaa7ff4183acb71c6",
+  "start_time": "2026-11-23T20:08:24.237940Z",
+  "end_time": "2026-11-23T20:08:24.237975Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb6fafd25848a32fe",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaa7ff4183acb71c6",
+  "start_time": "2026-11-23T20:08:24.238395Z",
+  "end_time": "2026-11-23T20:08:24.238608Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xaa7ff4183acb71c6",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:11.868252Z",
+  "end_time": "2026-11-23T20:08:24.238763Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 5,
+   "player": "coral",
+   "action": "claim B1",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x55180283d5c1103d",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xe57d0b9501057d1b",
+  "start_time": "2026-11-23T20:08:24.239412Z",
+  "end_time": "2026-11-23T20:08:24.239485Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.78,
+    0.76
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xf0c35c7f15808e56",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xe57d0b9501057d1b",
+  "start_time": "2026-11-23T20:08:24.239714Z",
+  "end_time": "2026-11-23T20:08:24.240167Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim C5",
+   "reason": "greedy score -1",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x9e6c231d1dc431f4",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xe57d0b9501057d1b",
+  "start_time": "2026-11-23T20:08:24.240412Z",
+  "end_time": "2026-11-23T20:08:24.240425Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xd107e9c5883e8d59",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xe57d0b9501057d1b",
+  "start_time": "2026-11-23T20:08:24.240613Z",
+  "end_time": "2026-11-23T20:08:24.240707Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xe57d0b9501057d1b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:24.239164Z",
+  "end_time": "2026-11-23T20:08:24.240784Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 6,
+   "player": "teal",
+   "action": "claim C5",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xe7569b87477a2b21",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x2fefc57a5bec873d",
+  "start_time": "2026-11-23T20:08:24.241208Z",
+  "end_time": "2026-11-23T20:08:24.241254Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L9",
+    "L10"
+   ],
+   "lessons.similarity": [
+    0.833,
+    0.809
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x7c8a63ca7ce883de",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x2fefc57a5bec873d",
+  "start_time": "2026-11-23T20:08:24.241434Z",
+  "end_time": "2026-11-23T20:08:38.380209Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "claim B2",
+   "reason": "Expanding directly from the home base (A1) to B2 strengthens the connection and creates a solid foundation for future expansion. It also blocks the enemy from potentially expanding into that area.",
+   "cited_lessons": [
+    "L9"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:08:38.380194Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xce44009e84946e6b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x2fefc57a5bec873d",
+  "start_time": "2026-11-23T20:08:38.380922Z",
+  "end_time": "2026-11-23T20:08:38.380956Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb03d5faac20cfd6f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x2fefc57a5bec873d",
+  "start_time": "2026-11-23T20:08:38.381374Z",
+  "end_time": "2026-11-23T20:08:38.381581Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x2fefc57a5bec873d",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:24.241013Z",
+  "end_time": "2026-11-23T20:08:38.381713Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 7,
+   "player": "coral",
+   "action": "claim B2",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x196b8744af0cd00f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x29521fc77547330a",
+  "start_time": "2026-11-23T20:08:38.382180Z",
+  "end_time": "2026-11-23T20:08:38.382239Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.802,
+    0.781
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x426930e36735e99c",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x29521fc77547330a",
+  "start_time": "2026-11-23T20:08:38.382426Z",
+  "end_time": "2026-11-23T20:08:38.382938Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim B5",
+   "reason": "greedy score -1",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xd582f90126c2c672",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x29521fc77547330a",
+  "start_time": "2026-11-23T20:08:38.383135Z",
+  "end_time": "2026-11-23T20:08:38.383147Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb3ea6f56cda4ddb1",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x29521fc77547330a",
+  "start_time": "2026-11-23T20:08:38.383326Z",
+  "end_time": "2026-11-23T20:08:38.383400Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x29521fc77547330a",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:38.381970Z",
+  "end_time": "2026-11-23T20:08:38.383466Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 8,
+   "player": "teal",
+   "action": "claim B5",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x637f7a8901f0470b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x5142653986c350d4",
+  "start_time": "2026-11-23T20:08:38.383861Z",
+  "end_time": "2026-11-23T20:08:38.383894Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L9",
+    "L10"
+   ],
+   "lessons.similarity": [
+    0.847,
+    0.828
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x4fde0e0fa39d447b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x5142653986c350d4",
+  "start_time": "2026-11-23T20:08:38.384069Z",
+  "end_time": "2026-11-23T20:08:51.386556Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "claim B3",
+   "reason": "Expanding towards the center to create a buffer between our home and the enemy's expanding territory.",
+   "cited_lessons": [
+    "L10"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:08:51.386540Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x07708198d4c5d99f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x5142653986c350d4",
+  "start_time": "2026-11-23T20:08:51.387264Z",
+  "end_time": "2026-11-23T20:08:51.387297Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x5c3019ceed02bc29",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x5142653986c350d4",
+  "start_time": "2026-11-23T20:08:51.387717Z",
+  "end_time": "2026-11-23T20:08:51.387915Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x5142653986c350d4",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:38.383680Z",
+  "end_time": "2026-11-23T20:08:51.388060Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 9,
+   "player": "coral",
+   "action": "claim B3",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xd584a451cfaaa7f7",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xb71403dc6323503f",
+  "start_time": "2026-11-23T20:08:51.388864Z",
+  "end_time": "2026-11-23T20:08:51.388957Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.788,
+    0.762
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xdec35c93eb1792a1",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xb71403dc6323503f",
+  "start_time": "2026-11-23T20:08:51.389201Z",
+  "end_time": "2026-11-23T20:08:51.389847Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim B4",
+   "reason": "greedy score -1",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x3bd2b12791beeaa5",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xb71403dc6323503f",
+  "start_time": "2026-11-23T20:08:51.390057Z",
+  "end_time": "2026-11-23T20:08:51.390068Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x8ec7bc611dcf4f68",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xb71403dc6323503f",
+  "start_time": "2026-11-23T20:08:51.390263Z",
+  "end_time": "2026-11-23T20:08:51.390340Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb71403dc6323503f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:51.388504Z",
+  "end_time": "2026-11-23T20:08:51.390410Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 10,
+   "player": "teal",
+   "action": "claim B4",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x65e9d6f80acd4b9f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x16b4fecf98588aa4",
+  "start_time": "2026-11-23T20:08:51.390830Z",
+  "end_time": "2026-11-23T20:08:51.390866Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.874,
+    0.823
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xf79cbab9907628f1",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x16b4fecf98588aa4",
+  "start_time": "2026-11-23T20:08:51.391049Z",
+  "end_time": "2026-11-23T20:09:04.825170Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "attack A3->B3",
+   "reason": "Following [L9] to prioritize capturing an enemy cell adjacent to my home to disrupt their expansion and gain a cell count advantage.",
+   "cited_lessons": [
+    "L9"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:09:04.825153Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xfdd2c783cacbd54f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x16b4fecf98588aa4",
+  "start_time": "2026-11-23T20:09:04.825956Z",
+  "end_time": "2026-11-23T20:09:04.825990Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": false,
+   "illegal_reason": "target B3 is not an enemy cell"
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb211193223b5bc13",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x16b4fecf98588aa4",
+  "start_time": "2026-11-23T20:09:04.826444Z",
+  "end_time": "2026-11-23T20:09:04.826666Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x16b4fecf98588aa4",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:08:51.390641Z",
+  "end_time": "2026-11-23T20:09:04.826838Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 11,
+   "player": "coral",
+   "action": "attack A3->B3",
+   "legal": false
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x7aeb42442c12e2c6",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaf8f0195370a9c6b",
+  "start_time": "2026-11-23T20:09:04.827532Z",
+  "end_time": "2026-11-23T20:09:04.827605Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.787,
+    0.756
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xc84bf64d81490333",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaf8f0195370a9c6b",
+  "start_time": "2026-11-23T20:09:04.827815Z",
+  "end_time": "2026-11-23T20:09:04.828610Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim A4",
+   "reason": "greedy score +10",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x99a70f4ee32a95a6",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaf8f0195370a9c6b",
+  "start_time": "2026-11-23T20:09:04.828823Z",
+  "end_time": "2026-11-23T20:09:04.828836Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x5362ed728d297ffa",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xaf8f0195370a9c6b",
+  "start_time": "2026-11-23T20:09:04.829029Z",
+  "end_time": "2026-11-23T20:09:04.829111Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xaf8f0195370a9c6b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:04.827289Z",
+  "end_time": "2026-11-23T20:09:04.829183Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 12,
+   "player": "teal",
+   "action": "claim A4",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x3758e4e94ef9525a",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa65c593d7e199a4d",
+  "start_time": "2026-11-23T20:09:04.829613Z",
+  "end_time": "2026-11-23T20:09:04.829650Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.839,
+    0.78
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x2f7ea1c2bc77086f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa65c593d7e199a4d",
+  "start_time": "2026-11-23T20:09:04.829844Z",
+  "end_time": "2026-11-23T20:09:22.221099Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "attack A4->A3",
+   "reason": "The enemy cell at A4 is adjacent to my home and appears vulnerable to attack, aligning with [L9] to disrupt their expansion and gain a cell count advantage.",
+   "cited_lessons": [
+    "L9"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:09:22.221084Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xf4b9b76f873659c6",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa65c593d7e199a4d",
+  "start_time": "2026-11-23T20:09:22.221824Z",
+  "end_time": "2026-11-23T20:09:22.221856Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": false,
+   "illegal_reason": "source A4 is not owned by coral"
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x05f4011bb174dda8",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa65c593d7e199a4d",
+  "start_time": "2026-11-23T20:09:22.222276Z",
+  "end_time": "2026-11-23T20:09:22.222481Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xa65c593d7e199a4d",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:04.829420Z",
+  "end_time": "2026-11-23T20:09:22.222623Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 13,
+   "player": "coral",
+   "action": "attack A4->A3",
+   "legal": false
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x3114610a2c451829",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xf09e6db74744ca2f",
+  "start_time": "2026-11-23T20:09:22.223365Z",
+  "end_time": "2026-11-23T20:09:22.223433Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.755,
+    0.749
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xcafb3a03d00facdd",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xf09e6db74744ca2f",
+  "start_time": "2026-11-23T20:09:22.223638Z",
+  "end_time": "2026-11-23T20:09:22.224469Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim A5",
+   "reason": "greedy score +21",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xac1b7e2986762dcb",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xf09e6db74744ca2f",
+  "start_time": "2026-11-23T20:09:22.224680Z",
+  "end_time": "2026-11-23T20:09:22.224693Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x2921a6e56d1864a5",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xf09e6db74744ca2f",
+  "start_time": "2026-11-23T20:09:22.224887Z",
+  "end_time": "2026-11-23T20:09:22.224966Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xf09e6db74744ca2f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:22.223074Z",
+  "end_time": "2026-11-23T20:09:22.225035Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 14,
+   "player": "teal",
+   "action": "claim A5",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x55f9d5fc424b95c3",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x96ab7def5ecefd2e",
+  "start_time": "2026-11-23T20:09:22.225466Z",
+  "end_time": "2026-11-23T20:09:22.225504Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.805,
+    0.771
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x5be8ce6f3ced6f61",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x96ab7def5ecefd2e",
+  "start_time": "2026-11-23T20:09:22.225696Z",
+  "end_time": "2026-11-23T20:09:35.080724Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "claim C2",
+   "reason": "Expanding our territory by claiming an empty cell adjacent to our owned cell C3.",
+   "cited_lessons": [
+    "L10"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:09:35.080709Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x266365142e4b9128",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x96ab7def5ecefd2e",
+  "start_time": "2026-11-23T20:09:35.081460Z",
+  "end_time": "2026-11-23T20:09:35.081486Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xdf31b01516927b01",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x96ab7def5ecefd2e",
+  "start_time": "2026-11-23T20:09:35.081738Z",
+  "end_time": "2026-11-23T20:09:35.081889Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x96ab7def5ecefd2e",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:22.225267Z",
+  "end_time": "2026-11-23T20:09:35.081986Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 15,
+   "player": "coral",
+   "action": "claim C2",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x33377d096f20ba78",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc2996e1e9736dcfd",
+  "start_time": "2026-11-23T20:09:35.082479Z",
+  "end_time": "2026-11-23T20:09:35.082550Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.769,
+    0.761
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x2b3e3754eb395d14",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc2996e1e9736dcfd",
+  "start_time": "2026-11-23T20:09:35.082744Z",
+  "end_time": "2026-11-23T20:09:35.083590Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim C4",
+   "reason": "greedy score +21",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x7903b417b2e5995b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc2996e1e9736dcfd",
+  "start_time": "2026-11-23T20:09:35.083794Z",
+  "end_time": "2026-11-23T20:09:35.083805Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x89d2d02e562a4f30",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xc2996e1e9736dcfd",
+  "start_time": "2026-11-23T20:09:35.083993Z",
+  "end_time": "2026-11-23T20:09:35.084072Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xc2996e1e9736dcfd",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:35.082258Z",
+  "end_time": "2026-11-23T20:09:35.084137Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 16,
+   "player": "teal",
+   "action": "claim C4",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x6b6cc9b63efaa0f7",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x08548ceb41469ad2",
+  "start_time": "2026-11-23T20:09:35.084550Z",
+  "end_time": "2026-11-23T20:09:35.084585Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.815,
+    0.781
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x43178f66627521b9",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x08548ceb41469ad2",
+  "start_time": "2026-11-23T20:09:35.084768Z",
+  "end_time": "2026-11-23T20:09:48.617935Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "claim D2",
+   "reason": "Expanding into D2 will push our territory closer to the enemy's base and create a buffer between our forces and theirs.",
+   "cited_lessons": [
+    "L10"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:09:48.617920Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xc954c0f4b365ac3c",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x08548ceb41469ad2",
+  "start_time": "2026-11-23T20:09:48.618656Z",
+  "end_time": "2026-11-23T20:09:48.618690Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xf84fc02ac2a1006b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x08548ceb41469ad2",
+  "start_time": "2026-11-23T20:09:48.619145Z",
+  "end_time": "2026-11-23T20:09:48.619355Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x08548ceb41469ad2",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:35.084362Z",
+  "end_time": "2026-11-23T20:09:48.619503Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 17,
+   "player": "coral",
+   "action": "claim D2",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb19fafe3779da3e1",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x06f0a26be2c650fa",
+  "start_time": "2026-11-23T20:09:48.620337Z",
+  "end_time": "2026-11-23T20:09:48.620435Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.781,
+    0.771
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xc6e1a5816191b439",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x06f0a26be2c650fa",
+  "start_time": "2026-11-23T20:09:48.620689Z",
+  "end_time": "2026-11-23T20:09:48.621598Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim C3",
+   "reason": "greedy score +21",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x85cdf14bdeb9f009",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x06f0a26be2c650fa",
+  "start_time": "2026-11-23T20:09:48.621810Z",
+  "end_time": "2026-11-23T20:09:48.621823Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x385ba26235cccfd7",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x06f0a26be2c650fa",
+  "start_time": "2026-11-23T20:09:48.622010Z",
+  "end_time": "2026-11-23T20:09:48.622088Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x06f0a26be2c650fa",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:48.619960Z",
+  "end_time": "2026-11-23T20:09:48.622157Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 18,
+   "player": "teal",
+   "action": "claim C3",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x791dda24061883af",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x3e80dc00a3a72992",
+  "start_time": "2026-11-23T20:09:48.622582Z",
+  "end_time": "2026-11-23T20:09:48.622618Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.799,
+    0.762
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xa0e421ec6484bf9b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x3e80dc00a3a72992",
+  "start_time": "2026-11-23T20:09:48.622804Z",
+  "end_time": "2026-11-23T20:10:28.361463Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "reinforce B3",
+   "reason": "B3 is under threat from Teal's B4 and C3. Reinforcing it to strength 2 will make it harder for Teal to capture it, protecting our territory near our home.",
+   "cited_lessons": [
+    "L9"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:10:28.361446Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[{\"target\": \"B3\", \"source\": \"B4\", \"power\": 2, \"defense\": 1, \"is_home\": false}, {\"target\": \"B3\", \"source\": \"C3\", \"power\": 2, \"defense\": 1, \"is_home\": false}]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x333cb905fe214f29",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x3e80dc00a3a72992",
+  "start_time": "2026-11-23T20:10:28.362190Z",
+  "end_time": "2026-11-23T20:10:28.362222Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xf1230f6066721e1c",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x3e80dc00a3a72992",
+  "start_time": "2026-11-23T20:10:28.362581Z",
+  "end_time": "2026-11-23T20:10:28.362720Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x3e80dc00a3a72992",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:09:48.622385Z",
+  "end_time": "2026-11-23T20:10:28.362816Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 19,
+   "player": "coral",
+   "action": "reinforce B3",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x8124f8c9a0399fcf",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xac9235bbf814d918",
+  "start_time": "2026-11-23T20:10:28.363320Z",
+  "end_time": "2026-11-23T20:10:28.363391Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.752,
+    0.738
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x4011728d696e9200",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xac9235bbf814d918",
+  "start_time": "2026-11-23T20:10:28.363593Z",
+  "end_time": "2026-11-23T20:10:28.364676Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim D3",
+   "reason": "greedy score +31",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x5e4a0bc3f30459b5",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xac9235bbf814d918",
+  "start_time": "2026-11-23T20:10:28.364893Z",
+  "end_time": "2026-11-23T20:10:28.364907Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xdeea038577bdb75b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xac9235bbf814d918",
+  "start_time": "2026-11-23T20:10:28.365098Z",
+  "end_time": "2026-11-23T20:10:28.365183Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xac9235bbf814d918",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:10:28.363087Z",
+  "end_time": "2026-11-23T20:10:28.365256Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 20,
+   "player": "teal",
+   "action": "claim D3",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x1df3e0ccb099cea0",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xccfc620719ddd866",
+  "start_time": "2026-11-23T20:10:28.365683Z",
+  "end_time": "2026-11-23T20:10:28.365726Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.792,
+    0.704
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x2f1084be75add100",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xccfc620719ddd866",
+  "start_time": "2026-11-23T20:10:28.365911Z",
+  "end_time": "2026-11-23T20:10:40.402672Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "attack B3->C2",
+   "reason": "Following [L9] to capture an enemy cell adjacent to my home and disrupt their expansion.",
+   "cited_lessons": [
+    "L9"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:10:40.402658Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x24e23e746e58df63",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xccfc620719ddd866",
+  "start_time": "2026-11-23T20:10:40.403308Z",
+  "end_time": "2026-11-23T20:10:40.403334Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": false,
+   "illegal_reason": "target C2 is not an enemy cell"
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x196788d51f900865",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xccfc620719ddd866",
+  "start_time": "2026-11-23T20:10:40.403615Z",
+  "end_time": "2026-11-23T20:10:40.403774Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xccfc620719ddd866",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:10:28.365485Z",
+  "end_time": "2026-11-23T20:10:40.403881Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 21,
+   "player": "coral",
+   "action": "attack B3->C2",
+   "legal": false
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb090a94d1b63ee19",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa8a7f2793cc9633b",
+  "start_time": "2026-11-23T20:10:40.404431Z",
+  "end_time": "2026-11-23T20:10:40.404505Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.77,
+    0.704
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xb1d5d36ef7e4b299",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa8a7f2793cc9633b",
+  "start_time": "2026-11-23T20:10:40.404734Z",
+  "end_time": "2026-11-23T20:10:40.405895Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim E3",
+   "reason": "greedy score +42",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x38f7bbfd6fd5d9eb",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa8a7f2793cc9633b",
+  "start_time": "2026-11-23T20:10:40.406106Z",
+  "end_time": "2026-11-23T20:10:40.406118Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x685b99664bf2bf92",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xa8a7f2793cc9633b",
+  "start_time": "2026-11-23T20:10:40.406309Z",
+  "end_time": "2026-11-23T20:10:40.406408Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xa8a7f2793cc9633b",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:10:40.404179Z",
+  "end_time": "2026-11-23T20:10:40.406474Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 22,
+   "player": "teal",
+   "action": "claim E3",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x7343d62a4787f4cf",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xba0ad74d31efc436",
+  "start_time": "2026-11-23T20:10:40.406895Z",
+  "end_time": "2026-11-23T20:10:40.406930Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.808,
+    0.698
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x5b73e7cfeeb20528",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xba0ad74d31efc436",
+  "start_time": "2026-11-23T20:10:40.407096Z",
+  "end_time": "2026-11-23T20:10:54.680943Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "PlayerAgent",
+   "action": "attack C2->B3",
+   "reason": "The move aligns with [L10] and [L9], as it attacks an enemy cell adjacent to my home and disrupts their expansion path.",
+   "cited_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  "events": [
+   {
+    "name": "tool_call",
+    "timestamp": "2026-11-23T20:10:54.680928Z",
+    "attributes": {
+     "name": "threat_scan",
+     "args": "{}",
+     "result": "[]"
+    }
+   }
+  ],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x2069b82a4597f089",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xba0ad74d31efc436",
+  "start_time": "2026-11-23T20:10:54.681689Z",
+  "end_time": "2026-11-23T20:10:54.681723Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": false,
+   "illegal_reason": "target B3 is not an enemy cell"
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xe7c95c2515876ba9",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xba0ad74d31efc436",
+  "start_time": "2026-11-23T20:10:54.682130Z",
+  "end_time": "2026-11-23T20:10:54.682344Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xba0ad74d31efc436",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:10:40.406701Z",
+  "end_time": "2026-11-23T20:10:54.682466Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 23,
+   "player": "coral",
+   "action": "attack C2->B3",
+   "legal": false
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "retrieve",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x97ee6239710e4b9f",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xea0548c3425f7859",
+  "start_time": "2026-11-23T20:10:54.682944Z",
+  "end_time": "2026-11-23T20:10:54.683006Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "lessons.count": 2,
+   "lessons.ids": [
+    "L10",
+    "L9"
+   ],
+   "lessons.similarity": [
+    0.786,
+    0.722
+   ]
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "decide",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x8debf0738255cd4a",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xea0548c3425f7859",
+  "start_time": "2026-11-23T20:10:54.683202Z",
+  "end_time": "2026-11-23T20:10:54.684374Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "agent": "GreedyBot",
+   "action": "claim D4",
+   "reason": "greedy score +53",
+   "cited_lessons": []
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "validate",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xe5c6d52e3dc85368",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xea0548c3425f7859",
+  "start_time": "2026-11-23T20:10:54.684580Z",
+  "end_time": "2026-11-23T20:10:54.684592Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "legal": true,
+   "illegal_reason": ""
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "apply",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x8970d9012c2057f1",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0xea0548c3425f7859",
+  "start_time": "2026-11-23T20:10:54.684778Z",
+  "end_time": "2026-11-23T20:10:54.684854Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {},
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "turn",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0xea0548c3425f7859",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": "0x18521a036fbc71b7",
+  "start_time": "2026-11-23T20:10:54.682727Z",
+  "end_time": "2026-11-23T20:10:54.684921Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "turn": 24,
+   "player": "teal",
+   "action": "claim D4",
+   "legal": true
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ },
+ {
+  "name": "game",
+  "context": {
+   "trace_id": "0x1936e7c3465b3a65b382f6bbedaae180",
+   "span_id": "0x18521a036fbc71b7",
+   "trace_state": "[]"
+  },
+  "kind": "SpanKind.INTERNAL",
+  "parent_id": null,
+  "start_time": "2026-11-23T20:07:11.639421Z",
+  "end_time": "2026-11-23T20:10:54.685090Z",
+  "status": {
+   "status_code": "UNSET"
+  },
+  "attributes": {
+   "game_id": "s1-D-g008",
+   "first": "coral",
+   "player.coral": "PlayerAgent",
+   "player.teal": "GreedyBot",
+   "winner": "teal",
+   "end": "cells 8-13"
+  },
+  "events": [],
+  "links": [],
+  "resource": {
+   "attributes": {
+    "telemetry.sdk.language": "python",
+    "telemetry.sdk.name": "opentelemetry",
+    "telemetry.sdk.version": "1.45.1",
+    "service.instance.id": "329d3b14-4a7e-4690-a69c-7ea11cae4afe",
+    "service.name": "unknown_service:python"
+   },
+   "schema_url": ""
+  }
+ }
+]

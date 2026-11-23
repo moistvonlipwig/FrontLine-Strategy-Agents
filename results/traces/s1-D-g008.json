@@ -1,0 +1,5773 @@
+{
+ "game_id": "s1-D-g008",
+ "first": "coral",
+ "winner": "teal",
+ "end": "cells 8-13",
+ "meta": {
+  "coral": "llm",
+  "teal": "greedy",
+  "condition": "D",
+  "seed": 1
+ },
+ "turns": [
+  {
+   "turn": 1,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": null,
+      "strength": 0
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": null,
+      "strength": 0
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": null,
+      "strength": 0
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": null,
+      "strength": 0
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 1,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "A2",
+    "source": null,
+    "reason": "Expanding downward from home to establish a southern front.",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": null,
+      "strength": 0
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": null,
+      "strength": 0
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": null,
+      "strength": 0
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 2,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L9",
+    "L10"
+   ]
+  },
+  {
+   "turn": 2,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": null,
+      "strength": 0
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": null,
+      "strength": 0
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": null,
+      "strength": 0
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 2,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "D5",
+    "source": null,
+    "reason": "greedy score -1",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": null,
+      "strength": 0
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": null,
+      "strength": 0
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 3,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L9",
+    "L10"
+   ]
+  },
+  {
+   "turn": 3,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": null,
+      "strength": 0
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": null,
+      "strength": 0
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 3,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "A3",
+    "source": null,
+    "reason": "Expanding directly down from my home cell to create a vertical connection for future expansion and defense.",
+    "cited_lessons": [
+     "L9"
+    ]
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": null,
+      "strength": 0
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 4,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L9",
+    "L10"
+   ]
+  },
+  {
+   "turn": 4,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": null,
+      "strength": 0
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 4,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "E4",
+    "source": null,
+    "reason": "greedy score -1",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 5,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L9",
+    "L10"
+   ]
+  },
+  {
+   "turn": 5,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": null,
+      "strength": 0
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 5,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "B1",
+    "source": null,
+    "reason": "Expanding directly adjacent to my home (A1) to strengthen my central position and create a buffer against enemy expansion.",
+    "cited_lessons": [
+     "L10"
+    ]
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 6,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L9",
+    "L10"
+   ]
+  },
+  {
+   "turn": 6,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": null,
+      "strength": 0
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 6,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "C5",
+    "source": null,
+    "reason": "greedy score -1",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 7,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 7,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": null,
+      "strength": 0
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 7,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "B2",
+    "source": null,
+    "reason": "Expanding directly from the home base (A1) to B2 strengthens the connection and creates a solid foundation for future expansion. It also blocks the enemy from potentially expanding into that area.",
+    "cited_lessons": [
+     "L9"
+    ]
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 8,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L9",
+    "L10"
+   ]
+  },
+  {
+   "turn": 8,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": null,
+      "strength": 0
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 8,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "B5",
+    "source": null,
+    "reason": "greedy score -1",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 9,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 9,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": null,
+      "strength": 0
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 9,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "B3",
+    "source": null,
+    "reason": "Expanding towards the center to create a buffer between our home and the enemy's expanding territory.",
+    "cited_lessons": [
+     "L10"
+    ]
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 10,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L9",
+    "L10"
+   ]
+  },
+  {
+   "turn": 10,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": null,
+      "strength": 0
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 10,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "B4",
+    "source": null,
+    "reason": "greedy score -1",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 11,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 11,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 11,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "attack",
+    "target": "B3",
+    "source": "A3",
+    "reason": "Following [L9] to prioritize capturing an enemy cell adjacent to my home to disrupt their expansion and gain a cell count advantage.",
+    "cited_lessons": [
+     "L9"
+    ]
+   },
+   "legal": false,
+   "illegal_reason": "target B3 is not an enemy cell",
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 12,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 12,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": null,
+      "strength": 0
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 12,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "A4",
+    "source": null,
+    "reason": "greedy score +10",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 13,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 13,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 13,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "attack",
+    "target": "A3",
+    "source": "A4",
+    "reason": "The enemy cell at A4 is adjacent to my home and appears vulnerable to attack, aligning with [L9] to disrupt their expansion and gain a cell count advantage.",
+    "cited_lessons": [
+     "L9"
+    ]
+   },
+   "legal": false,
+   "illegal_reason": "source A4 is not owned by coral",
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 14,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 14,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": null,
+      "strength": 0
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 14,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "A5",
+    "source": null,
+    "reason": "greedy score +21",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 15,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 15,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": null,
+      "strength": 0
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 15,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "C2",
+    "source": null,
+    "reason": "Expanding our territory by claiming an empty cell adjacent to our owned cell C3.",
+    "cited_lessons": [
+     "L10"
+    ]
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 16,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 16,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": null,
+      "strength": 0
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 16,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "C4",
+    "source": null,
+    "reason": "greedy score +21",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 17,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 17,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": null,
+      "strength": 0
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 17,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "D2",
+    "source": null,
+    "reason": "Expanding into D2 will push our territory closer to the enemy's base and create a buffer between our forces and theirs.",
+    "cited_lessons": [
+     "L10"
+    ]
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 18,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 18,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": null,
+      "strength": 0
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 18,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "C3",
+    "source": null,
+    "reason": "greedy score +21",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 19,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 19,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 19,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "reinforce",
+    "target": "B3",
+    "source": null,
+    "reason": "B3 is under threat from Teal's B4 and C3. Reinforcing it to strength 2 will make it harder for Teal to capture it, protecting our territory near our home.",
+    "cited_lessons": [
+     "L9"
+    ]
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 20,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 20,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": null,
+      "strength": 0
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 20,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "D3",
+    "source": null,
+    "reason": "greedy score +31",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 21,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 21,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 21,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "attack",
+    "target": "C2",
+    "source": "B3",
+    "reason": "Following [L9] to capture an enemy cell adjacent to my home and disrupt their expansion.",
+    "cited_lessons": [
+     "L9"
+    ]
+   },
+   "legal": false,
+   "illegal_reason": "target C2 is not an enemy cell",
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 22,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 22,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": null,
+      "strength": 0
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 22,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "E3",
+    "source": null,
+    "reason": "greedy score +42",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 23,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 23,
+   "player": "coral",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 23,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "attack",
+    "target": "B3",
+    "source": "C2",
+    "reason": "The move aligns with [L10] and [L9], as it attacks an enemy cell adjacent to my home and disrupts their expansion path.",
+    "cited_lessons": [
+     "L10",
+     "L9"
+    ]
+   },
+   "legal": false,
+   "illegal_reason": "target B3 is not an enemy cell",
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 24,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  },
+  {
+   "turn": 24,
+   "player": "teal",
+   "state_before": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": null,
+      "strength": 0
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "teal",
+    "turn": 24,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "action": {
+    "kind": "claim",
+    "target": "D4",
+    "source": null,
+    "reason": "greedy score +53",
+    "cited_lessons": []
+   },
+   "legal": true,
+   "illegal_reason": null,
+   "state_after": {
+    "board": {
+     "A1": {
+      "owner": "coral",
+      "strength": 3
+     },
+     "B1": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C1": {
+      "owner": null,
+      "strength": 0
+     },
+     "D1": {
+      "owner": null,
+      "strength": 0
+     },
+     "E1": {
+      "owner": null,
+      "strength": 0
+     },
+     "A2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "C2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "D2": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "E2": {
+      "owner": null,
+      "strength": 0
+     },
+     "A3": {
+      "owner": "coral",
+      "strength": 1
+     },
+     "B3": {
+      "owner": "coral",
+      "strength": 2
+     },
+     "C3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E3": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E4": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "A5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "B5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "C5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "D5": {
+      "owner": "teal",
+      "strength": 1
+     },
+     "E5": {
+      "owner": "teal",
+      "strength": 2
+     }
+    },
+    "to_move": "coral",
+    "turn": 25,
+    "homes": {
+     "coral": "A1",
+     "teal": "E5"
+    }
+   },
+   "candidates": [],
+   "candidate_scores": [],
+   "retrieved_lessons": [
+    "L10",
+    "L9"
+   ]
+  }
+ ]
+}

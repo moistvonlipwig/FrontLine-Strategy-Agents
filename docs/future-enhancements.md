@@ -22,6 +22,7 @@ Enhancements that stay out of the capstone so it ships by the week of Nov 9. Add
 | 12 | Workshop or course: build a self-improving game agent, with FrontLine as the example | Later | Medium | Idea |
 | 13 | Evaluate Strands (Python or TypeScript) for the agent core, its evals SDK, and its Box sandbox with Dogwood policy | Later | Low | Idea |
 | 14 | MCP server that exposes the game tools to other agents | Later | Low | Idea |
+| 15 | I/ITSEC paper: LLM-written after-action lessons for an explainable, adaptive OPFOR. Needs a hosted model, 100+ games per condition with 2-3 seeds, an MCTS opponent and RL/MCTS ceiling, instructor ratings of lesson quality, and a larger scenario | After capstone | High | Idea |
 
 ## Notes
 
@@ -33,6 +34,7 @@ Most items depend on two things built this week: the Pydantic schemas and the en
 - **Temporal policies (6):** examples are "promote a lesson only after the critic approved it" and "at most N tool calls per turn." Test them by replaying saved traces.
 - **Node front end and hosted model (7, 8):** depends on 3. Stream the 3 candidates and cited lessons live. That is the teaching hook. Use a hosted model for anything public.
 - **Strands (13):** a possible path, not a commitment. Try it first on a small spike, such as the Connect Four adapter from item 5, before porting FrontLine. Worth testing: graph and swarm patterns for the match loop and review crew, human-in-the-loop interrupts and streaming for the Node UI, the evals SDK for agent scoring, and Box for running agents under Dogwood policy. Apache 2.0, free for commercial use. The TypeScript SDK is younger than the Python one. Set the model explicitly to avoid default Bedrock charges. Port the engine with its unit tests so the rules provably do not change.
+- **I/ITSEC paper (15):** frame it as a training paper, not a games paper: the review crew is an automated after-action review, and lessons give instructors an opposing force whose tactics they can read and audit, unlike an RL policy. I/ITSEC fits better than SISO; a SISO paper would instead be about the state/action/trace contracts and hooking into HLA or DIS. The capstone report is the first draft of the methods section.
 - **Income items (10, 11, 12):** the designer report and the workshop reuse FrontLine directly. The Oly-Spark auditor reuses the review crew, lesson store, and promotion gate.
 
 ## Decisions
