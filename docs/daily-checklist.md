@@ -46,10 +46,10 @@ Tick each item as you finish it. Dates match the plan tab, ending with the Modul
 - [ ] Pilot of 10 to 20 games
 - [ ] Fix bugs found in the pilot
 - [ ] Freeze rules, git tag v1-rules
-- [ ] Each game saves its trace and lesson snapshot (resumable)
-- [ ] One log line per game
-- [ ] Nightly summary file readable from your phone
-- [ ] Failure guard stops after 3 errors in a row
+- [x] Each game saves its trace and lesson snapshot (resumable)
+- [x] One log line per game
+- [x] Nightly summary file readable from your phone
+- [x] Failure guard stops after 3 errors in a row
 - [ ] Queue A to D seed 1, A to D seed 2, then B-long
 - [ ] Runner started under tmux or systemd before bed
 

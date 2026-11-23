@@ -22,6 +22,8 @@ uv run python scripts/run_match.py --coral greedy --teal random        # fast, n
 uv run python scripts/run_match.py --games 10 --quiet                  # illegal-move rate
 uv run python scripts/run_match.py --no-tot                            # 1 candidate (condition D)
 uv run python scripts/run_match.py --lessons tests/fixtures/lessons.json   # retrieval check
+uv run python scripts/run_experiment.py --seed 1                    # A-D experiment, resumable, writes runs/seed1/
+uv run python scripts/run_experiment.py --seed 1 --player greedy --a 2 --b 2 --c 2 --d 2   # runner smoke test, no LLM
 ```
 
 Default model: `qwen3:32b` via Ollama (`--model` to change).
