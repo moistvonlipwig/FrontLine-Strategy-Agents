@@ -1,6 +1,6 @@
 # Final presentation plan
 
-Recorded video, 8 to 10 minutes, technical audience. Built as a .pptx by `build_deck.py`, with the script in each slide's speaker notes. The notes are the same text as `script.md`; edit the script first, then copy changes into the notes. Follows the 7.1 presentation outline. Results come from `runs/seed1/summary.md`.
+Recorded video, 8 to 10 minutes, technical audience. Built as a .pptx by `build_deck.py`, with the script in each slide's speaker notes. Follows the 7.1 presentation outline. Results come from `runs/seed1/summary.md`.
 
 | # | Outline section | Slide | Time |
 |---|---|---|---|
