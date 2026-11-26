@@ -160,3 +160,6 @@ runs/
 
 # Office lock files
 ~$*
+
+# Recorded presentation videos (too large for GitHub)
+*.mp4
